@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackground"
+    android:padding="16dp"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About SkyCast"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SkyCast is a weather forecasting app that provides accurate and up-to-date weather information. With SkyCast, you can stay informed about the current weather conditions and plan your day accordingly.\n\nFeatures:\n- Detailed weather forecasts for your location\n- Hourly and daily weather predictions\n- Severe weather alerts and notifications\n- Interactive radar maps\n- Customizable widget for quick access to weather information\n\nSkyCast uses advanced weather data sources and algorithms to deliver reliable and precise weather forecasts. Whether you're planning a trip, organizing an outdoor event, or simply want to know what to wear, SkyCast has got you covered.\n\nStay ahead of the weather with SkyCast - your trusted weather companion!"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Next"
+            android:textAlignment="center"
+            android:background="@color/main"
+            android:textColor="@android:color/white"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>

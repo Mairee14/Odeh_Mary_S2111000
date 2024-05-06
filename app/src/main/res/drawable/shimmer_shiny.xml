@@ -1,0 +1,9 @@
+<!-- shimmer_gradient.xml -->
+<animated-gradient xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/gradientbackground"
+    android:duration="1000"
+    android:repeatCount="infinite">
+    <item android:color="#03DAC6" android:offset="0"/>
+    <item android:color="#6200EE" android:offset="0.5"/>
+    <item android:color="#03DAC6" android:offset="1"/>
+</animated-gradient>

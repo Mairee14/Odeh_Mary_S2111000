@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favorite"
+        android:title="Favorite"
+        android:icon="@drawable/baseline_star_outline_24"
+        app:showAsAction="ifRoom"
+        />
+
+
+    <item
+        android:id="@+id/action_notifications"
+        android:title="Notifications"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/Help"
+        android:title="Help"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_compare"
+        android:title="About"
+        app:showAsAction="never" />
+
+
+
+
+</menu>

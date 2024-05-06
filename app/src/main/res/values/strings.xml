@@ -1,0 +1,22 @@
+<resources>
+    <string name="search_location_hint">Search for a city or location</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="temperature_format">Temperature: %1$s / %2$s</string>
+    <string name="humidity_format">Humidity: %1$s</string>
+    <string name="windspeed_format">Windspeed: %1$s</string>
+    <string name="weather_icon">Weather Icon</string>
+    <string name="suggestion_text">Suggestion</string>
+    <string name="pressure_format">Pressure: %1$s</string>
+    <string name="uv_risk_format">UV Risk: %1$s</string>
+    <string name="pollution_format">Pollution: %1$s</string>
+    <string name="visibility_format">Visibility: %1$s</string>
+    <string name="sunrise_format">Sunrise: %1$s</string>
+    <string name="sunset_format">Sunset: %1$s</string>
+    <string-array name="refresh_intervals">
+        <item>Refresh every 30 seconds </item>
+    </string-array>
+
+
+</resources>

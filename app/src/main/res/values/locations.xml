@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="locations">
+        <item>Glasgow</item>
+        <item>London</item>
+        <item>New York</item>
+        <item>Oman</item>
+        <item>Mauritius</item>
+        <item>Bangladesh</item>
+    </string-array>
+</resources>

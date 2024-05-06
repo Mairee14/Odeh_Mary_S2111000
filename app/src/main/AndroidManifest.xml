@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Odeh_Mary_S2111000"
+        tools:targetApi="31">
+        <activity
+            android:name=".SkipActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SkipActivity1"
+            android:exported="false" />
+
+        <activity
+            android:name=".OnboardingScreen"
+            android:configChanges="orientation|screenSize"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThreeDayForecastActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DayForecastDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CompareWeatherLocationActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD-xX4zAAZhZYGmjUFUbXH8AI8WmLUa6os" />
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" /> <!-- Add the DataRefreshReceiver here -->
+
+        <receiver android:name=".DataRefreshReceiver"
+            android:exported="true"
+            android:permission="TODO">
+            <intent-filter>
+                <action android:name="com.example.odeh_mary_s2111000.ACTION_UPDATE_DATA" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

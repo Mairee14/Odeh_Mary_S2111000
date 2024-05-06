@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main_background">#3D5B92</color>
+    <color name="main">#4b4ec6</color>
+    <color name="Splash_screen">#273061</color>
+    <color name="main_backgroundd">#A4C639</color>
+    <color name="item_background_color">#F5F5F5</color>
+    <color name="purple_background">#4B0082</color>
+    <color name="suggestion_text">#FF0000</color>
+    <color name="button_background_color">#FF0000</color>
+
+</resources>
